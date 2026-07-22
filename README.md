@@ -1,28 +1,47 @@
-# RetailIQ - End-to-End E-Commerce Sales Analytics
+# 🛍️ RetailIQ - End-to-End Sales Analytics
 
-## Project Overview
-
-RetailIQ is an end-to-end data analytics project built using Python, SQL Server, and Power BI. The project analyzes an e-commerce retail dataset to uncover sales trends, customer behavior, product performance, and country-wise sales insights.
-
-The project demonstrates a complete analytics workflow, starting from raw data cleaning to interactive dashboard creation.
+An end-to-end retail sales analytics project that demonstrates the complete data analytics workflow using **Python**, **SQL Server**, and **Power BI**. The project transforms raw e-commerce transaction data into actionable business insights through data cleaning, SQL analysis, KPI reporting, and an interactive dashboard.
 
 ---
 
-## Objectives
+# 📌 Project Overview
 
-- Clean and preprocess raw retail transaction data.
-- Perform feature engineering to prepare an analysis-ready dataset.
-- Analyze sales, customers, products, and countries using SQL Server.
-- Build an interactive Power BI dashboard.
-- Generate actionable business insights.
+RetailIQ analyzes retail sales transactions to answer key business questions such as:
+
+- What is the total revenue generated?
+- Which products generate the highest revenue?
+- Which countries contribute the most sales?
+- How does revenue change over time?
+- Which weekdays and quarters perform best?
+
+The project follows the complete analytics pipeline from raw data to business dashboard.
 
 ---
 
-## Tech Stack
+# 🚀 Project Workflow
+
+```
+Raw Dataset
+     │
+     ▼
+Python Data Cleaning (Pandas)
+     │
+     ▼
+SQL Server Database
+     │
+     ▼
+Business Analysis using SQL
+     │
+     ▼
+Power BI Dashboard
+```
+
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
-- NumPy
 - SQL Server
 - Power BI
 - Git
@@ -30,45 +49,132 @@ The project demonstrates a complete analytics workflow, starting from raw data c
 
 ---
 
-## Project Workflow
+# 📂 Repository Structure
 
-Raw Dataset
-→ Data Cleaning (Python)
-→ Feature Engineering
-→ SQL Analysis
-→ Power BI Dashboard
-→ Business Insights
+```
+RetailIQ-Sales-Analytics/
+│
+├── Data/
+│   ├── Raw/
+│   └── Cleaned/
+│
+├── Images/
+│   └── RetailIQ_Sales_Dashboard.png
+│
+├── Notebooks/
+│   └── 01_data_cleaning.ipynb
+│
+├── PowerBI/
+│   └── RetailIQ.pbix
+│
+├── SQL/
+│   ├── 00_KPIs.sql
+│   ├── 01_sales_overview.sql
+│   ├── 02_time_analysis.sql
+│   ├── 03_product_analysis.sql
+│   ├── 04_customer_analysis.sql
+│   ├── 05_country_analysis.sql
+│   └── 06_advanced_sql.sql
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
 ---
 
-## Repository Structure
+# 📊 Dashboard Preview
 
-```
-RetailIQ/
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── notebooks/
-│
-├── sql/
-│
-├── powerbi/
-│
-├── images/
-│
-└── README.md
-```
+![RetailIQ Dashboard](Images/RetailIQ_Sales_Dashboard.png)
 
 ---
 
-## Project Status
+# 📈 Dashboard KPIs
 
-- [x] Data Cleaning
-- [x] Feature Engineering
-- [x] SQL Data Import
-- [ ] SQL Analysis
-- [ ] Power BI Dashboard
-- [ ] Final Documentation
+- 💶 Total Revenue
+- 📦 Total Orders
+- 👥 Total Customers
+- 🛍️ Total Products
+- 💰 Average Order Value
 
+---
+
+# 📊 Business Analysis
+
+### Sales Overview
+- Revenue KPIs
+- Order statistics
+- Customer statistics
+
+### Time Analysis
+- Monthly Revenue Trend
+- Revenue by Weekday
+- Orders by Quarter
+
+### Product Analysis
+- Top 10 Products by Revenue
+
+### Customer Analysis
+- Customer revenue analysis
+- Average customer spending
+
+### Country Analysis
+- Top 10 Countries by Revenue
+- Revenue distribution by country
+
+### Advanced SQL
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Aggregate Analysis
+
+---
+
+# 💡 Key Insights
+
+- The United Kingdom generated the highest revenue.
+- November recorded the highest monthly revenue.
+- A small number of products contributed a significant portion of total sales.
+- Weekday sales consistently outperformed weekend sales.
+- Revenue varied significantly across countries.
+
+---
+
+# ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/bibin-33/RetailIQ-Sales-Analytics.git
+```
+
+2. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Jupyter Notebook to perform data cleaning.
+
+4. Execute the SQL scripts in SQL Server.
+
+5. Open `RetailIQ.pbix` in Power BI Desktop to explore the interactive dashboard.
+
+---
+
+# 📚 Dataset
+
+The project uses the **Online Retail II** transactional dataset containing international retail transactions, including invoices, products, customers, quantities, prices, and countries.
+
+---
+
+# 👨‍💻 Author
+
+**Bibin Biju**
+
+- GitHub: https://github.com/bibin-33
+- LinkedIn: https://www.linkedin.com/in/bibinbiju27/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!

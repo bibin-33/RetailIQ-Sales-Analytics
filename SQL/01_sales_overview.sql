@@ -1,3 +1,8 @@
+/*============================================================
+Project : RetailIQ
+Section : Sales Overview
+============================================================*/
+
 SELECT SUM(TotalSales) AS Total_Sales
 FROM Sales;
 
